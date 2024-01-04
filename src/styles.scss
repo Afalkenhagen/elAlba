@@ -6,3 +6,12 @@
 @import "../node_modules/normalize-scss/sass/normalize";
 @include normalize();
 
+body {
+    scroll-behavior: smooth;
+    transition: 0.3s ease all;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root {
+    --alba:#62734F,
+    --alba1:#96A280
+}
