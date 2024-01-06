@@ -1,3 +1,16 @@
-<div class="bg-cyan-400">
-    <app-hero></app-hero>
-</div>
+<main class="snap-y snap-mandatory relative w-full overflow-y-auto overflow-x-hidden scroll-smooth">
+    <!-- 
+        el h-screen genera la segunda barra de desplazamiento
+        
+     -->
+    <div class="snap-center">
+        <app-hero></app-hero>
+    </div>
+    <div class="max-h-screen overflow-y-scroll snap snap-y snap-mandatory">
+        <section class="w-full h-screen snap-start bg-red-200">Section 1</section>
+        <section class="w-full h-screen snap-start bg-blue-200">Section 2</section>
+        <section class="w-full h-screen snap-start bg-green-200">Section 3</section>
+        <section class="w-full h-screen snap-start bg-indigo-200">Section 4</section>
+        <section class="w-full h-screen snap-start bg-yellow-200">Section 5</section>
+    </div>
+</main>
