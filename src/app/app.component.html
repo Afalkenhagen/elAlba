@@ -1,5 +1,7 @@
 <app-navbar></app-navbar>
 <router-outlet></router-outlet>
-<!-- <app-footer></app-footer> -->
-
-
+<button *ngIf="isMenuScrolled" (click)="scrollToTop()" class="flex text-white fixed transition-all duration-300 bottom-4 right-5 w-12 h-12 bg-[#62734F] hover:bg-gray-900 rounded-full">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6 m-auto">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+      </svg>      
+</button>
