@@ -6,9 +6,13 @@ module.exports = {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
   plugins: [
     require('tailwindcss-animated'),
-    require('@tailwindcss/aspect-ratio')
+    require('@tailwindcss/aspect-ratio'),
+    require('daisyui')
   ],
 }
 
