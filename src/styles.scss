@@ -9,7 +9,7 @@
 body {
     scroll-behavior: smooth;
     transition: 0.3s ease all;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: josefin, sans-serif;
 }
 
 @layer utilities {
@@ -26,3 +26,16 @@ body {
       scroll-snap-align: start;
     }
   }
+
+@font-face {
+  font-family: 'josefin';
+  src: url('/assets/fonts/JosefinSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'josefin';
+  src: url('/assets/fonts/JosefinSans-light.ttf') format('truetype');
+  font-weight: light;
+  font-style: light;
+}

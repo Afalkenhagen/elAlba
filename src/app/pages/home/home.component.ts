@@ -3,6 +3,7 @@ import { HeroComponent } from '../../components/hero/hero.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { RouterLink } from '@angular/router';
 
+
 @Component({
   selector: 'app-home',
   standalone: true,
