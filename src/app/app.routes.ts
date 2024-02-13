@@ -7,6 +7,7 @@ import { BeneficiosComponent } from './pages/beneficios/beneficios.component';
 import { NovedadesComponent } from './pages/novedades/novedades.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { ParticipaComponent } from './pages/participa/participa.component';
+import { SwiperSliderComponent } from './components/swiper-slider/swiper-slider.component';
 
 export const routes: Routes = [
     {path: "", component: HomeComponent},
@@ -17,4 +18,5 @@ export const routes: Routes = [
     {path: "novedades", component: NovedadesComponent},
     {path: "participa", component: ParticipaComponent},
     {path: "contacto", component: ContactoComponent},
+    {path: "swiper", component: SwiperSliderComponent}
 ];

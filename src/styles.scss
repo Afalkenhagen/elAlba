@@ -6,6 +6,9 @@
 @import "../node_modules/normalize-scss/sass/normalize";
 @include normalize();
 
+//@import '~swiper/swiper-bundle.min.css';
+
+
 body {
     scroll-behavior: smooth;
     transition: 0.3s ease all;
