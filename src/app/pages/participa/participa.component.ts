@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FooterComponent } from '../../components/footer/footer.component';
 
 @Component({
   selector: 'app-participa',
   standalone: true,
-  imports: [],
+  imports: [FooterComponent],
   templateUrl: './participa.component.html',
   styleUrl: './participa.component.scss'
 })
